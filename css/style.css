@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.container-topo{
+    text-align: center;
+}
+.paragrafo-topo{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgba(31, 134, 225, 0.328) ;
+    margin-bottom: 15px;
+    background-color: rgba(31, 134, 225, 0.328);
+    color: white;
+    border: none;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.links{
+    width: 500px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.21);
+    margin-bottom: 12px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+.links:hover{
+    background-color: rgba(255, 255, 255, 0.294);
+}
+.rede-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socials{
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+    margin-top: 30px;
+    
+}
+.socials:hover{
+    background-color: white;
+    border-radius: 50%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.dark-theme{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
