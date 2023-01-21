@@ -18,7 +18,7 @@ Páginaeclusiva e gratuita , promovida para informar sobre suas redes sociais e 
 <br>
 
 <p align="center">
-  <img alt="projeto cartao de vistas" src=".github/readme.jpg" width="100%">
+  <img alt="projeto cartao de vistas" src=".github/readme.JPG" width="100%">
 </p>
 
 ## 🚀 Tecnologias
