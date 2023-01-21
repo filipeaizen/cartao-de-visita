@@ -27,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
--JAVASCRIPT
+- JAVASCRIPT
 - Ainda não responsivo 
 
 ## 💻 Projeto
