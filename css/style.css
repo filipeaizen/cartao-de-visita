@@ -31,7 +31,7 @@ img{
     margin-bottom: 20px;
 }
 .btn{
-    width: 100px;
+    width: 180px;
     height: 40px;
     border: 1px solid rgba(31, 134, 225, 0.328) ;
     margin-bottom: 15px;
@@ -104,4 +104,81 @@ img{
     align-items: center;
     flex-direction: column;
     font-family: sans-serif;
+}
+@media screen and (max-width:480px){
+    .light-theme{
+        width: 100%;
+        height: 100vh;
+    }
+    body{
+        width: 100%;
+        height: 100vh;
+    }
+    .btn{
+        font-size: 15px;
+    }
+    .container-topo{
+        margin-top: 10px;
+    }
+    .paragrafo-topo{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .links{
+        width: 300px;
+    }
+    .socials{
+        margin-top: 10px;
+        color: yellowgreen;
+    }
+}
+@media screen and (min-width:480.1px) and (max-width:768px){
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .paragrafo-topo{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .links{
+        width: 600px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .footer{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:768.1px) and (max-width:1024px){
+    .light-theme{
+        width: 100%;
+        height: 100vh;
+    }
+    body{
+        width: 100%;
+        height: 100vh;
+    }
+    .btn{
+        font-size: 15px;
+    }
+    .container-topo{
+        margin-top: 30px;
+    }
+    .paragrafo-topo{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .links{
+        width: 300px;
+    }
+    .socials{
+        margin-top: 10px;
+        color: yellowgreen;
+    }
+    .footer{
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
 }
